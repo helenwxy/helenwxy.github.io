@@ -2,22 +2,130 @@
 <html>
     <head>
         <meta charset = "utf-8">
-        <title>Helen's Dev Blog</title>
+        <title>Helen Wang's Blog</title>
+        <link rel = "stylesheet"
+            type = "text/css"
+            href = "indexStyle.css"/>
     </head>
+
     <body>
+    <div class="header">
+        <h2>Helen Wang's Blog</h2>
+    </div>
 
-        <h1>Welcome to Helen's Dev Blog!</h1>
-        <font size="4"><b>
-        <a href="chihengapp.html">点击这里下载智行手机应用</a></b></font>
+        <div class="row">
+            <div class="leftcolumn">
+                <div class="card">
+                    <a name="project1"></a>
+                    <h2>Nursing Course Support Android Application (Personal Project)</h2>
+                    <h4>June - July 2019</h4>
+                    <p>
+                    An Android mobile application developed to supplement Chi Heng Foundation's first Nursing Care Assistant Course offering in Zheng Zhou, China. This application
+                    allows students to review selected topics discussed in class, and can also serve as a quick-reference guide to help students recognize clients' health conditions
+                    during clinical practice. The application was distributed to students via APK download in July.<br><br>
+                    <img src="pp1_1.jpg" width ="250" height="500">
+                    &nbsp;
+                    <img src="pp1_2.jpg" width ="250" height="500">
+                    &nbsp;
+                    <img src="pp1_3.jpg" width ="250" height="500">
+                    <br><br>
+                    <b>Project highlights:</b>
+                    <ul>
+                        <li>Utilized Listview in main activity to clearly display topic choices, and passed bundle to allow users to select specific topics to view from main activity</li>
+                        <li>Implemented topic contents using Webview layout (HTML) for simple, clear, and effective delivery of contents</li>
+                        <li>Skills: Java, Android Studio, HTML</li>
+                    </ul>
+                    <b>Link: <a href="https://github.com/helenwxy/Chiheng-Mobile">https://github.com/helenwxy/Chiheng-Mobile</a></b>
+                    </p>
+                </div>
 
-        <!-- <p>More content coming...but meanwhile, meet my kitties Socks (tuxedo) and Yoda (orange tabby)!</p>
-        <img src = "socks1.png" width = "500px"/>
-        <br>
-        <img src = "socks2.png" width = "500px"/>
-        <br>
-        <img src = "yoda1.png" width = "500px">
-        <br>
-        <img src = "yoda2.png" width = "500px"> -->
-        
+                <div class="card">
+                        <a name="project2"></a>
+                        <h2>Pet Finer Web Application (Hackathon Project)</h2>
+                        <h4>March 2019</h4>
+                        <p>
+                        A WebApp developed with React.js that aimed to help pet owners to find their lost animals. The WebApp utilized City of Vancouver's open data, which was transformed
+                        into flat file in JSON format and used for search and display function of the application.
+
+                        <br><br>
+                        <b>Project highlights:</b>
+                        <ul>
+                            <li>Learned basic Linux commands and programed with HTML, CSS, Node.js, and React.js in one day and worked in a team of four to design and implement the application</li>
+                            <li>Utilized City of Vancouver’s lost pet database and developed a web application that allowed users to search for their lost pets by date</li>
+                            <li>Responsible for Designing and implementing front-end with one other group member, such as banner, logo, buttons, and search-bar</li>
+                            <li>Skills: JavaScript, Node.js, Reat.js, HTML5, CSS</li>
+                        </ul>
+                        <b>Link: <a href="https://github.com/helenwxy/Chiheng-Mobile">https://github.com/helenwxy/lostandfoundapp</a></b>
+                        </p>
+                    </div>
+
+                    <div class="card">
+                            <a name="project3"></a>
+                            <h2>To-do Task Manager (Class Project)</h2>
+                            <h4>Jan - April 2019</h4>
+                            <p>
+                            A 4-phase Java class project completed for CPSC210 (Software construction course). To-do tasks and projects (a group of tasks) can be created, deleted, and modified and are stored in JSON format.
+                            Each task is parsed into JSON object and has features including title, description, due-date, priority, and tags. GUIs are implemented with JavaFX. 
+                            Composite design pattern is used so that features such as progress and time to completion can be modified and calculated for both projects and tasks. For each phase, JUnit tests
+                            are used to comprehensively test the functionality of the project.
+    
+                            <br><br>
+                            <b>Project highlights:</b>
+                            <ul>
+                                <li>Utilized IO to store, modify, and extract tasks with JSON parser</li>
+                                <li>Create basic Java classes from scratch to implement UML diagrams and specified functionalities, while making effective use of design patternse</li>
+                                <li>Designed and implemented JUnit tests to comprehensively test program functionalities</li>
+                                <li>Skills: Java, IntelliJ, JSON, JUnit, design patterns, OOP </li>
+                            </ul>
+                            <b>Link unavailable, sorry!</a></b>
+                            </p>
+                        </div>
+
+
+
+
+            </div>
+            <div class="rightcolumn">
+                <div class="card">
+                    <h2>About Me</h2>
+                    <img src = "profile_pic.jpg" width="80%" alt="Unable to display image.">
+                    <p>Hello! My name is Helen Wang. I am a third year second degree Bachelor of Computer Science student at UBC. 
+                        I am also working as a casual Registered Nurse at the Intensitve Care Unit at the Burnaby Hospital. <br><br>
+                        I am detail-oriented, responsible, and passionate about learning new tools and technologies. My techincal skills include:
+                        <br><br>
+                        <b>Programming languages:</b> Java, C++/C, HTML, CSS <br>
+                        <b>Tools/Environment:</b> IntelliJ, Visual Code Studio, Github, Ubuntu, Android Studio
+                        <br><br>
+                        <b>Connect with me:</b>
+                    <div class="socialmedia">
+                        <a href="https://www.linkedin.com/in/helen-wang-055987138/"><img src="linkedin_icon.png" width = "30" height = "30" alt="LinkedIn"></a>
+                        &nbsp; 
+                        <a href="https://github.com/helenwxy"><img src="github_icon.png" width = "30" height = "30" alt="Github"></a>
+                        &nbsp; 
+                        <a href="https://www.facebook.com/helen.wang.330467"><img src="facebook_icon.png" width = "30" height = "30" alt="Facebook"></a>
+                    </div>
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Projects</h3>
+                    <div class="projectlinks">
+                        <a href="#project1">Nursing Course Support Android Application</a>
+                    </div>
+                    <br>
+                    <div class="projectlinks">
+                        <a href="#project2">Pet Finder Web Application</a>
+                    </div>
+                    <br>
+                    <div class="projectlinks">
+                        <a href="#project3">To-do Task Manager</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="footer">
+    
+    </div>
     </body>
 </html>
